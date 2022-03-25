@@ -17,9 +17,9 @@ they probably come from OO world (although i did too - but that was long ago) an
 ## how it feels to use typescript
 whenever i use typescript i cant help but feel suffucated and castrated. 
 clean code - forget it - it looks so ugly.
-my hands want to smack the keyboard everytime i need to write a type for something that is so obvious!!!
-or write something just for the compiler to accept it.
-or write a function to make sure types are correct - seriously this is the worse.
+my hands want to smack the keyboard everytime i need to write a type for something that is so obvious,
+write something just for the compiler to accept it
+or write a function to make sure types are correct - seriously its the  worst.
 
 ## typeguards - the most horrible invention of typescript
 typeguards are typescripts way of making sure a type is enforced and casted correctly.
@@ -35,18 +35,22 @@ you might argue about the last point - if you have good programmers it wont happ
 
 ## what is the main argument for typescript?
 its better to have typing when working in large groups.
+it helps with code completion.
 
-sorry - its better to have good javascript developers rather than java developers that try to do frontend in typescript.
+sorry but no ... its better to have good javascript developers rather than java developers that try to do frontend in typescript.
 
-# what do i offer? BEST PRACTICES and TIME
+# what is the alternative ? Well defined BEST PRACTICES and Experience
 take the time to know the language intimately - embrace its flexibility.
 most important!
 
 Javascript has a huge community - there are BEST PRACTICES - take time to learn them.
 this is usually the main problem.
 people dont know how to approach a certain problem and "just do".
+use a linter to enforce certain practices.
 
-think and learn before you "just do" and i assure you - you wont need typescript.
+think and learn before you "just do" and i assure you - you wont need types.
+as for code completion, the latest IDEs allow for code completion even without types, 
+yes its not as comperhensible, but its good enough.
 
 
 ## summary
@@ -54,4 +58,17 @@ i hate typescript is a bit harsh - i dont like it for many reasons - mostly beca
 
 typescript can be used mildly - but from my experience developers mostly abuse the code with overtyping everyhing possible.
 it looks bad, its not performant - i have nothing more to add.
+
+
+## quick update
+4 years later - typescript seems to have developed to be the standard.
+in big projects you lose all hope of remembering and finding the right properties for objects unless you have a very good order of things.
+but in big teams things often get out of hand.
+in that case, having types is helpful for code completion, you need less time for searching things.
+
+nevertheless i stand by my Rant - and i still think you can do it well wihtout typescript, and if you still choose to use it, do not use it extensively and force types on everything.
+"any" is not the enemy, in fact its quite encouragable in some places in my oppinion.
+if you see a case where its there because of laziness rather than code artistry, create a ticket to fix it...
+
+"Types should be helpful and not hindering".
 
